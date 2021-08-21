@@ -18,6 +18,7 @@ const Country = ({ country }) => {
     setborders(borders);
   };
 
+
   useEffect(() => {
     getBorders();
   }, []);
